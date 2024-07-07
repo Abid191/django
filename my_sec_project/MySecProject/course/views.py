@@ -4,13 +4,13 @@ from django.http import HttpResponse
 # Create your views here.
 
 def english(request):
-    return render(request,'english.html')
+    return render(request,'courses/english.html')
 
 def bangla (request):
-    return HttpResponse('welcome to Bangla Course')
+    return render(request,'courses/bangla.html')
 
 def math (request):
-    return HttpResponse('welcome to Math Course')
+    return render(request,'courses/math.html')
 
 def biology (request):
-    return HttpResponse('welcome to Biology Course')
+    return render(request,'courses/biology.html')

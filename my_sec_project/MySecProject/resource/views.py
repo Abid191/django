@@ -11,7 +11,7 @@ def blog(request):
 
     allCourses = {"c1": course1,"c2": course2,"c3": course3,"c4": course4}
 
-    return render(request,"blog.html",allCourses)
+    return render(request,"resources/blog.html",allCourses)
 
 def free_course(request):
-    return render(request, "freeCourse.html", {'fcrs':5})
+    return render(request, "resources/freeCourse.html", {'fcrs':5})
