@@ -14,3 +14,4 @@ def math (request):
 
 def biology (request):
     return render(request,'courses/biology.html')
+
